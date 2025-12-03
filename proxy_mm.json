@@ -10,13 +10,13 @@
       "This is Basecamp proxy for NASA's Memory Manager App. This repo augments",
       "the MM App repo so MM can be integrated with Basecamp. The 'cfs' and",
       "'requires' JSON objects are populated in mm.json.",
-      "branch-tag is emptty because 'equuleus-rc1' branch doesn't compile. Has",
-      "same date as the date as draco-rc5" 
+      "'release-tag' is emptty because 'equuleus-rc1' doesn't compile. Has same",
+      "date as the date as 'draco-rc5' tag so not sure it was tagged correctly." 
    ],
 
    "proxy": {
       "url": "https://github.com/nasa/mm",
-      "branch-tag": "",
+      "release-tag": "",
       "update-files": [
          "mm.json              >> mm.json",
          "CMakeLists.txt       >> CMakeLists.txt",
