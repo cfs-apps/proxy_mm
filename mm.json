@@ -1,0 +1,31 @@
+{ "app": {
+   
+   "title": "Memory Manager",
+   "version": "0.0.0",
+   "supplier": "NASA",
+   "copyright": "Apache 2.0",
+   "url": "https://github.com/nasa/mm",
+
+   "description": [
+      "App spec for NASA's Memory Manager App. Basecamp's proxy_mm",
+      "spec defines which version is used."
+   ],
+   
+   "cfs": {
+      "cfe-type": "CFE_APP",
+      "obj-file": "mm",
+      "entry-symbol": "MM_AppMain",
+      "name": "MM",
+      "priority": 40,
+      "stack": 16384,
+      "load_addr": 0,
+      "exception-action": 0,
+      "app-framework": "cfs",
+      "tables": []
+   },
+   
+   "requires": []
+
+}}
+
+
